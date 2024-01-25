@@ -63,7 +63,7 @@ header a:hover {
     }
 
     header nav a {
-        font-size: 10px !important;
+        font-size: 2em;
         margin-left: 5px;
         padding: 1px;
     }
@@ -153,13 +153,14 @@ img {
     animation-direction: alternate-reverse;
 }
 .about div h2 {
-    font-size: 1.4em;
-    font-weight: 500;
+    font-size: 2em;
+    font-weight: 800;
+    line-height: 1.8;
     color:var(--twoColor);
 }
 
 .about div h3 {
-    font-size: 1em;
+    font-size: 2em;
     font-weight: 600;
     letter-spacing: 1px;
     margin: 10px 0px 30px;
@@ -505,6 +506,9 @@ opacity: 0.5;
     .contact  .content {
         flex-direction:column;
     }
+    .title {
+        font-size: 1.2em;
+    }
 }
 /* Section contact end */
 /* Form section start */
@@ -540,6 +544,7 @@ opacity: 0.5;
 .main-form .box .form form h2 {
     text-align: center;
     color: black;
+    font-size: 1.2em;
 }
 
 .main-form .box .form form .inputbox  {
