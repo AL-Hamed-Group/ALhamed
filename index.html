@@ -19,7 +19,7 @@
 <!--    <meta http-equiv="refresh" content="0;url=https://al-hamed-group.github.io/ALhamed/"> -->
 
     <title>Al-Hamed</title>
-    <script>
+    <!-- <script>
         document.addEventListener('keydown', function (e) {
             // Replace the following key code with the one you would like to use
             if (e.keyCode === 85 && (navigator.platform.match('Mac') ? e.metaKey : e.ctrlKey)) {
@@ -33,7 +33,7 @@
             e.preventDefault();
             alert('Sorry, this function is disabled for security reasons.');
         }, false);
-    </script>
+    </script> -->
  <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-XVH7RXXSFP"></script>
 <script>
@@ -46,233 +46,127 @@
 </head>
 
 <body>
-    <!-- Element-contains all element in body  Start-->
-    <div class="contains">
-        <!-- Header Section Start -->
-        <header>
-            <a href="#"><img  class="logo" src="images/logo.png" alt="a" style="border-radius: 50%; width: 100px; height: 80px;"></a>
-            <nav class="navigation">
-                <a href="#services" title="Let's go services.">الخدمات</a>
-                <a href="#projects" title="Let's go project.">التصميمات</a>
-                <a href="fill-html/form.html" title="Send me your data." target="_blank">تواصل معنا</a>
-                <a href="fill-html/articles.html" title="Go to articles." target="_blank">مقالات</a>
-            </nav>
-        </header>
-        <!-- Header Section End -->
+    <!-- Header Start -->
+    <header>
+        <div class="logo"><img src="images/logo.png" alt=""></div>
+        <ul class="ul-large">
+            <li><a href="#service">الخدمات</a></li>
+            <li> <a href="#design">التصميمات</a></li>
+            <li> <a href="#form">تواصل معنا</a></li>
+            <li><a href="#">مقالات</a></li>
+        </ul>
+        <div class="main-list">
+            <div class="list">
+                <div class="option"></div>
+                <div class="option ch"></div>
+                <div class="option"></div>
+                <ul class="ul-small">
+                    <li><a href="#service">الخدمات</a></li>
+                    <li> <a href="#design">التصميمات</a></li>
+                    <li> <a href="#">تواصل معنا</a></li>
+                    <li><a href="#">مقالات</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!-- Header End -->
+    <!-- Section Start -->
+    <section>
+        <section class="slider">
 
-        <!-- About Section Start -->
-        <section class="about">
-                <div class="first-child-about">
-                <div class="h2-h3">
-                <h2>مرحبا بكم في موقع ال حامد<br><span> لتصميم المواقع</span></h2>
-                <h3>نحن نبني لك موقعك بطريقه مميزه واحترافيه ونسهل عليك ظهورك <br>علي شبكه الانتر نت والأنتشار بعلامتك التجاريه  بطريقه فعاله وامنه .</h3>
+            <h1>مرحبا بكم في موقع ال حامد <br>لتصميم المواقع</h1>
+
+            <div class="des">
+                <p>
+                نحن نبني لك موقعك بطريقه مميزه واحترافيه ونسهل عليك ظهورك
+                <br>علي شبكه الانتر نت والأنتشار بعلامتك التجاريه بطريقه فعاله وامنه .
+                </p>
+            </div>
+
+            <div class="btn-social">
+                <div class="btn">
+                    <h3><a href="#">شاهد اعمالنا</a></h3>
                 </div>
-                <a href="#projects" title="Go to my work." class="main-btn">شاهد اعمالنا</a>
-                <div class="social-icons">
-                    <a href="https://web.facebook.com/profile.php?id=61555919667208" target="_blank"><i
-                            class="fa-brands fa-facebook"></i></a>
-                    <a href="#"><i class="fa-brands fa-tiktok"></i></a>
-                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-                    <a href="https://wa.me/+201144897324" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
-                    <a href="#"><i class="fa-brands fa-github"></i></a>
+                <div class="social">
+                <a href="#" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://wa.me/+201144897324" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="#"><i class="fa-brands fa-github"></i></a>
                 </div>
             </div>
-        </section>
-        <!-- About Section End -->
 
-        <!-- Services Section Start -->
-        <section class="cards-service" id="services">
-            <h2 class="title">الخدمات</h2>
-
-            <!-- Section all service cards start -->
-
-            <!-- This element contains only two cards service -->
-            <div class="content">
-                <!--  Card one service start -->
+        </section> 
+        <!-- Service Start -->
+        <section class="service" id="service">
+            <h2>الخدمات</h2>
+            <div class="cards">
                 <div class="card">
-                    <div class="icon">
-                        <i class="fas fa-edit"></i>
-                    </div>
-                    <div class="info">
-                        <h3>كتابة المقالات.</h3>
-                        <p>عمل بحث دقيق ومميز لأنشاء مقاله لموقعك لهدف زياده <br>الزيارات وانتشار  منتجاتك بشكل احترافي.</p>
-                    </div>
+                    <i class="fas fa-edit"></i>
+                    <h3>كتابة المقالات</h3>
+                    <p>عمل بحث دقيق ومميز لأنشاء مقاله لموقعك</p>
                 </div>
-                <!--  Card one service end -->
-
-                <!--  Card two service start -->
                 <div class="card">
-                    <div class="icon">
-                        <i class="fas fa-user-secret"></i>
-                    </div>
-                    <div class="info">
-                        <h3>صمم موقعك في خلال يومان فقط</h3>
+                    <i class="fas fa-user-secret"></i>
+                    <h3>صمم موقعك في خلال يومان فقط</h3>
                         <p>نحن نريد مساعدتك في انتشار موقعك وخدمتك التي تقدمها .</p>
-                    </div>
                 </div>
-                <!-- Card two service end -->
-            </div>
-            <!-- Section all service cards end-->
-        </section>
-
-        <!-- Services Section End -->
-
-        <!-- Projects Section Start -->
-        <section class="projects" id="projects">
-            <h2 class="title">التصميمات</h2>
-            <!-- This element contains only 6 cards projects-->
-            <div class="content">
-                <!-- Card project one start -->
-                <div class="project-card">
-                    <div class="project-image">
-                        <img src="images/project-1.png" loading="lazy" alt="sory">
-                        <div class="project-info">
-                            <p class="project-category">تصميم</p>
-                            <strong class="project-title">
-                                <!-- <span>Dev</span> -->
-                                <a href="fill-html/project-1.html" target="_blank" class="more-details">شاهد </a>
-                            </strong>
-                        </div>
-                    </div>
-                </div>
-                <!-- Card project one end -->
-
-                <!-- Card project two start -->
-                <div class="project-card">
-                    <div class="project-image">
-                        <img src="images/project-2.png"loading="lazy" alt="sory">
-                        <div class="project-info">
-                            <p class="project-category">تصميم</p>
-                            <strong class="project-title">
-                                <!-- <span>Dev</span> -->
-                                <a href="fill-html/project-2.html" target="_blank" class="more-details">شاهد</a>
-                            </strong>
-                        </div>
-                    </div>
-                </div>
-                <!-- Card project two end -->
-
-                <!-- Card project three start -->
-                <div class="project-card">
-                    <div class="project-image">
-                        <img src="images/project-3.png" loading="lazy" alt="sory">
-                        <div class="project-info">
-                            <p class="project-category">تصميم</p>
-                            <strong class="project-title">
-                                <!-- <span>Dev</span> -->
-                                <a href="fill-html/project-3.html" target="_blank" class="more-details">شاهد </a>
-                            </strong>
-                        </div>
-                    </div>
-                </div>
-                <!-- Card project three end -->
-
-                <!-- Card project four start -->
-                <div class="project-card">
-                    <div class="project-image">
-                        <img src="images/project-4.png" alt="sory" loading="lazy">
-                        <div class="project-info">
-                            <p class="project-category">تصميم</p>
-                            <strong class="project-title">
-                                <!-- <span>Dev</span> -->
-                                <a href="fill-html/project-4.html" target="_blank" class="more-details">شاهد </a>
-                            </strong>
-                        </div>
-                    </div>
-                </div>
-                <!-- Card project four end -->
-
-                <!-- Card project five start -->
-                <div class="project-card">
-                    <div class="project-image">
-                        <img src="images/project-5.png" alt="sory" loading="lazy">
-                        <div class="project-info">
-                            <p class="project-category">تصميم</p>
-                            <strong class="project-title">
-                                <!-- <span>Dev</span> -->
-                                <a href="fill-html/project-5.html" target="_blank" class="more-details">شاهد </a>
-                            </strong>
-                        </div>
-                    </div>
-                </div>
-                <!-- Card project five end -->
-
-                <!-- Card project six start -->
-                <div class="project-card">
-                    <div class="project-image">
-                        <img src="images/project-6.png" alt="sory" loading="lazy">
-                        <div class="project-info">
-                            <p class="project-category"> تصميم</p>
-                            <strong class="project-title">
-                                <!-- <span>Dev</span> -->
-                                <a href="fill-html/project-6.html" target="_blank" class="more-details">شاهد </a>
-                            </strong>
-                        </div>
-                    </div>
-                </div>
-                <!-- Card  project six end -->
             </div>
         </section>
-        <!-- Projects Section End -->
-
-        <!--Contact Section Start  -->
-        <section class="cards contact" id="contact">
-            <h2 class="title">اتصل بنا لنصبح شركاء نجاحك الأن</h2>
-
-            <!-- This element contains only 5 cards icones start-->
-            <div class="content">
-                <!-- Card phone one start -->
+        <!-- Service End -->
+        <!-- Design Start -->
+        <section class="design" id="design">
+            <h2>ألتصميمات</h2>
+            <div class="main-card">
                 <div class="card">
-                    <div class="info">
-                        <a href="tel:+201144897324"><i class="fas fa-phone"></i><h4>الهاتف</h4></a>
-                    </div>
+                    <h3><a href="#">شاهد</a></h3>
+                    <img src="images/os3.jpeg" alt="Sorry Your Browser Is Not Supported This Image!">
+                    <p>هذا تصميم بالصور يمكننا العمل عليه</p>
                 </div>
-                <!-- Card phone one end -->
-
-                <!-- Card email two start -->
                 <div class="card">
-                    <div class="info">
-                        <a href="mailto:mahemoudabuelsaoud@gmail.com"><i class="fas fa-envelope"></i><h4>البريد الالكتروني</h4></a>
-                    </div>
+                    <h3><a href="#">شاهد</a></h3>
+                    <img src="images/P-fresh.png" alt="Sorry Your Browser Is Not Supported This Image!">
+                    <p>هذا تصميم بالصور يمكننا العمل عليه</p>
                 </div>
-                <!-- Card email two end -->
-
-                <!-- Card form three start -->
                 <div class="card">
-                    <div class="info">
-                        <a href="fill-html/form.html" target="_blank"><i class="fa-solid fa-right-to-bracket"></i><h4>ارسال بياناتك </h4></a>
-                    </div>
+                    <h3><a href="#">شاهد</a></h3>
+                    <img src="images/project-2.png" alt="Sorry Your Browser Is Not Supported This Image!">
+                    <p>هذا تصميم بالصور يمكننا العمل عليه</p>
                 </div>
-                <!-- Card form three end -->
-
-                <!-- Card whatsapp four start -->
                 <div class="card">
-                    <div class="info">
-                        <a href="https://wa.me/+201144897324" target="_blank"><i class="fa-brands fa-whatsapp"></i><h4>واتساب</h4></a>
-                    </div>
+                    <h3><a href="#">شاهد</a></h3>
+                    <img src="images/project-3.png" alt="Sorry Your Browser Is Not Supported This Image!">
+                    <p>هذا تصميم بالصور يمكننا العمل عليه</p>
                 </div>
-                <!-- Card whatsapp four end -->
-
-                <!-- Card facebook five start  -->
-                <!-- <div class="card">
-                    <div class="info">
-                       <a href="https://web.facebook.com/profile.php?id=61555905863820&locale=ar_AR"
-                                target="_blank"><i class="fa-brands fa-facebook"></i><h4>فيس بوك</h4></a>
-                    </div>
-                </div> -->
-                <!-- Card facebook five end  -->
+                <div class="card">
+                    <h3><a href="#">شاهد</a></h3>
+                    <img src="images/project-4.png" alt="Sorry Your Browser Is Not Supported This Image!">
+                    <p>هذا تصميم بالصور يمكننا العمل عليه</p>
+                </div>
+                <div class="card">
+                    <h3><a href="#">شاهد</a></h3>
+                    <img src="images/project-5.png" alt="Sorry Your Browser Is Not Supported This Image!">
+                    <p>هذا تصميم بالصور يمكننا العمل عليه</p>
+                </div>
+                <div class="card">
+                    <h3><a href="#">شاهد</a></h3>
+                    <img src="images/project-6.png" alt="Sorry Your Browser Is Not Supported This Image!">
+                    <p>هذا تصميم بالصور يمكننا العمل عليه</p>
+                </div>
+                <div class="card">
+                    <h3><a href="#">شاهد</a></h3>
+                    <img src="images/project-1.png" alt="Sorry Your Browser Is Not Supported This Image!">
+                    <p>هذا تصميم بالصور يمكننا العمل عليه</p>
+                </div>
             </div>
-            <!-- This element contains only 5 cards icones end-->
         </section>
-        <!--Contact Section end  -->
-
-
+        <!-- Design End -->
         <!-- Form section start  -->
-        <section class="cards main-form" id="contact">
+        <section class="main-form" id="form">
             <div class="box">
                 <div class="form">
                     <form>
-                        <h2>سجل بياناتك وهنتواصل<br> معاك في اقرب وقت</h2>
+                        <h2>ابعتلنا بياناتك</h2>
                         <div class="inputbox">
                             <label>اسمك</label><br>
                             <input type="text" value="" id="username" placeholder="اكتب اسمك هنا..." required>
@@ -289,95 +183,108 @@
                             <label>موضوع</label><br>
                             <input type="subject" value="" id="subject" placeholder="اكتب اي شئ..." required>
                         </div>
-                        <div class="parent-sub"><input type="submit" value="ارسال" class="sub" id="submit"></div>
+                        <div class="send">
+                            <input type="submit" value="ارسال" class="sub" id="submit">
+                            <input type="reset" value="حذف">
+                        </div>
                     </form>
                 </div>
+                <!-- Cards In Form Start -->
+                <div class="main-cards-form">
+                    <h2>تواصل معنا عبر...</h2>
+                    <div class="all-cards">
+                        <div class="card">
+                            <a href="mailto:mahemoudabuelsaoud@gmail.com"><i class="fas fa-envelope"></i><h4>البريد الالكتروني</h4></a>
+                        </div>
+                        <div class="card">
+                            <a href="fill-html/form.html" target="_blank"><i class="fa-solid fa-right-to-bracket"></i><h4>ارسال بياناتك </h4></a>
+                        </div>
+                        <div class="card">
+                            <a href="https://wa.me/+201144897324" target="_blank"><i class="fa-brands fa-whatsapp"></i><h4>واتساب</h4></a>
+                        </div>
+                        <div class="card">
+                            <a href="https://web.facebook.com/profile.php?id=61555905863820&locale=ar_AR" target="_blank"><i class="fa-brands fa-facebook"></i><h4>فيس بوك</h4></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Cards In Form End -->
             </div>
         </section>
         <!-- Form section end  -->
+    </section>
+    <!-- Section End -->
+    <!-- Footer Start -->
+    <footer>
+        <p>تم التصميم بواسطه <a href="#">ال حامد</a>© 2020</p>
+    </footer>
+    <!-- Footer End -->
 
-        <!--Footer Section Start  -->
-        <footer>
-            <p class="footer-title"><span>تم التصميم بواسطه ال حامد</span>&copy; 2020 </p>
-            <!-- <div class="social-icons">
-                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-                <a href="https://web.facebook.com/profile.php?id=61555905863820&locale=ar_AR" target="_blank"><i
-                        class="fa-brands fa-facebook"></i></a>
-                <a href="#"><i class="fa-brands fa-github"></i></a>
-                <a href="https://wa.me/+201144897324" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
-                <a href="#"><i class="fa-brands fa-instagram"></i></a>
-            </div> -->
-            <!-- Messenger المكون الإضافي "دردشة" Code -->
-    <div id="fb-root"></div>
+      <!-- Messenger المكون الإضافي "دردشة" Code -->
+      <div id="fb-root"></div>
 
-    <!-- Your المكون الإضافي "دردشة" code -->
-    <div id="fb-customer-chat" class="fb-customerchat">
-    </div>
+      <!-- Your المكون الإضافي "دردشة" code -->
+      <div id="fb-customer-chat" class="fb-customerchat">
+      </div>
+  
+      <script>
+        var chatbox = document.getElementById('fb-customer-chat');
+        chatbox.setAttribute("page_id", "205198002681543");
+        chatbox.setAttribute("attribution", "biz_inbox");
+      </script>
+  
+      <!-- Your SDK code -->
+      <script>
+        window.fbAsyncInit = function() {
+          FB.init({
+            xfbml            : true,
+            version          : 'v19.0'
+          });
+        };
+  
+        (function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = 'https://connect.facebook.net/ar_AR/sdk/xfbml.customerchat.js';
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+      </script>
+      <script type="module">
 
-    <script>
-      var chatbox = document.getElementById('fb-customer-chat');
-      chatbox.setAttribute("page_id", "205198002681543");
-      chatbox.setAttribute("attribution", "biz_inbox");
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js";
+        import { getDatabase, ref, set, get, child } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-database.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+    
+        // Your web app's Firebase configuration
+        const firebaseConfig = {
+            apiKey: "AIzaSyCYft0-h7x_zdPhAZf_08TcUEfKJGzNRcY",
+        authDomain: "alhamed-2.firebaseapp.com",
+        projectId: "alhamed-2",
+        storageBucket: "alhamed-2.appspot.com",
+        messagingSenderId: "409359402074",
+        appId: "1:409359402074:web:0ab95ef88671ec5d0ec463"
+        };
+    
+    
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+    
+        //get ref to database services
+        const db = getDatabase(app);
+    
+        document.getElementById("submit").addEventListener('click', function (e) {
+            e.preventDefault();
+            set(ref(db, 'All-users/' + document.getElementById("username").value),
+                {
+                    username: document.getElementById("username").value,
+                    email: document.getElementById("email").value,
+                    PhoneNumber: document.getElementById("phone").value,
+                    subject: document.getElementById("subject").value,
+                });
+            alert("تم ارسال بيانات التواصل معك شكرا لك!");
+        })
     </script>
-
-    <!-- Your SDK code -->
-    <script>
-      window.fbAsyncInit = function() {
-        FB.init({
-          xfbml            : true,
-          version          : 'v19.0'
-        });
-      };
-
-      (function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s); js.id = id;
-        js.src = 'https://connect.facebook.net/ar_AR/sdk/xfbml.customerchat.js';
-        fjs.parentNode.insertBefore(js, fjs);
-      }(document, 'script', 'facebook-jssdk'));
-    </script>
-        </footer>
-        <!--Footer Section End  -->
-    </div>
-    <!-- Element-contains all element in body end-->
-</body>
-<script type="module">
-
-    // Import the functions you need from the SDKs you need
-    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js";
-    import { getDatabase, ref, set, get, child } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-database.js";
-    // TODO: Add SDKs for Firebase products that you want to use
-    // https://firebase.google.com/docs/web/setup#available-libraries
-
-    // Your web app's Firebase configuration
-    const firebaseConfig = {
-        apiKey: "AIzaSyCYft0-h7x_zdPhAZf_08TcUEfKJGzNRcY",
-    authDomain: "alhamed-2.firebaseapp.com",
-    projectId: "alhamed-2",
-    storageBucket: "alhamed-2.appspot.com",
-    messagingSenderId: "409359402074",
-    appId: "1:409359402074:web:0ab95ef88671ec5d0ec463"
-    };
-
-
-    // Initialize Firebase
-    const app = initializeApp(firebaseConfig);
-
-    //get ref to database services
-    const db = getDatabase(app);
-
-    document.getElementById("submit").addEventListener('click', function (e) {
-        e.preventDefault();
-        set(ref(db, 'All-users/' + document.getElementById("username").value),
-            {
-                username: document.getElementById("username").value,
-                email: document.getElementById("email").value,
-                PhoneNumber: document.getElementById("phone").value,
-                subject: document.getElementById("subject").value,
-            });
-        alert("تم ارسال بيانات التواصل معك شكرا لك!");
-    })
-</script>
-
+    </body>
 </html>
