@@ -238,6 +238,9 @@ section .service .cards {
     padding: 10%;
     gap: 20px;
 }
+section .service .cards .card:hover {
+    scale: 1.1;
+}
 section .service .cards .card {
     background-color: #00000065;
     padding: 5%;
@@ -246,6 +249,7 @@ section .service .cards .card {
     justify-content: center;
     align-items: center;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.622), -1px -1px 5px  rgba(0, 0, 0, 0.622);
+    transition: scale 1s;
 }
 section .service .cards .card i {
     color: white;
@@ -299,8 +303,11 @@ justify-content: center;
 align-items: center;
 border-radius: 5px;
 box-shadow: 1px 1px 5px black, -1px -1px 5px black;
+transition: scale 1s;
 }
-
+section .design .main-card .card:hover {
+    scale: 1.1;
+}
 section .design .card h3 a {
     text-decoration: none;
     color: white;
@@ -315,6 +322,9 @@ section .design  .card img {
     height: 130px;
     opacity: .7;
     width: 100%;
+}
+section .design  .card img:hover {
+    opacity: 1;
 }
 section .design .card p {
    color: white;
@@ -406,8 +416,13 @@ section .main-form .box .main-cards-form .all-cards .card {
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: scale 1s;
 
 }
+section .main-form .box .main-cards-form .all-cards .card:hover {
+    scale: 1.1;
+}
+
 section .main-form .box .main-cards-form .all-cards .card a i { 
     color: white;
     font-size: 25px;
