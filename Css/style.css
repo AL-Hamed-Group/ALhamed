@@ -242,14 +242,16 @@ section .service .cards .card:hover {
     scale: 1.1;
 }
 section .service .cards .card {
-    background-color: #00000065;
+    background-color: #00000055;
     padding: 5%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.622), -1px -1px 5px  rgba(0, 0, 0, 0.622);
+box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.222), -1px -1px 5px rgba(0, 0, 0, 0.079);
     transition: scale 1s;
+    width: 250px;
+    border-radius: 5px;
 }
 section .service .cards .card i {
     color: white;
@@ -273,10 +275,6 @@ section .service .cards .card p {
 /* Design Start */
 section .design {
     width: 100%;
-    background-image:  url(../images/alhamed-4.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -293,7 +291,7 @@ section .design .main-card {
     gap: 50px;
 }
 section .design .main-card .card {
-    background-color: rgba(0, 0, 0, 0.396);
+    background-color: rgba(0, 0, 0, 0.31);
     height: 250px;
     padding: 10px 0;
     width: 300px;
@@ -302,7 +300,7 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 border-radius: 5px;
-box-shadow: 1px 1px 5px black, -1px -1px 5px black;
+box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.222), -1px -1px 5px rgba(0, 0, 0, 0.079);
 transition: scale 1s;
 }
 section .design .main-card .card:hover {
@@ -320,12 +318,8 @@ section .design .card h3 a {
 section .design  .card img {
     width: 200px;
     height: 130px;
-    opacity: .7;
-    width: 100%;
 }
-section .design  .card img:hover {
-    opacity: 1;
-}
+
 section .design .card p {
    color: white;
 }
@@ -334,24 +328,24 @@ section .design .card p {
 /* Form Start */
 section .main-form {
     width: 100%;
-    background-color: #aaa;
+    background-color: black;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 5%;
+    /* padding: 5%; */
 }
 section .main-form .box {
     width: 100%;
     /* background-color: #eee; */
-    padding: 5%;
+    /* padding: 5%; */
 }
 section .main-form .form {
     width: 100%;
 }
 section .main-form .form form {
     width: 100%;
-    background-color: #00000084;
+    background-color: #00000059;
     padding: 10%;
     display: flex;
     justify-content: center;
@@ -409,7 +403,7 @@ section .main-form .box .main-cards-form .all-cards {
 
 }
 section .main-form .box .main-cards-form .all-cards .card {
-    background-color: #00000080;
+    background-color: #00000050;
     border-radius: 10px;
     padding: 50px;
     width: 250px;
@@ -455,7 +449,7 @@ section .main-form .box .main-cards-form .all-cards .card a h4 {
 /* Footer Start */
 footer {
     width: 100%;
-    background-color: #000000a8;
+    background-color: #000000c1;
     padding: 5%;
     display: flex;
     justify-content: center;
