@@ -235,7 +235,7 @@ section .service .cards {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 10%;
+    padding: 5%;
     gap: 20px;
 }
 section .service .cards .card:hover {
@@ -243,7 +243,7 @@ section .service .cards .card:hover {
 }
 section .service .cards .card {
     background-color: #00000055;
-    padding: 5%;
+    padding: 4%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -252,6 +252,7 @@ box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.222), -1px -1px 5px rgba(0, 0, 0, 0.079)
     transition: scale 1s;
     width: 250px;
     border-radius: 5px;
+    height: 250px;
 }
 section .service .cards .card i {
     color: white;
@@ -289,17 +290,18 @@ section .design .main-card {
     align-items: center;
     flex-wrap: wrap;
     gap: 50px;
+    padding: 30px;
 }
 section .design .main-card .card {
     background-color: rgba(0, 0, 0, 0.31);
-    height: 250px;
-    padding: 10px 0;
+    /* height: 250px; */
+    /* padding: 10px 0; */
     width: 300px;
 display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
-border-radius: 5px;
+border-radius: 10px;
 box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.222), -1px -1px 5px rgba(0, 0, 0, 0.079);
 transition: scale 1s;
 }
@@ -316,8 +318,10 @@ section .design .card h3 a {
     cursor: pointer;
 }
 section .design  .card img {
-    width: 200px;
-    height: 130px;
+    /* width: 200px; */
+    height: 200px;
+    width: 100%;
+    border-radius: 10px;
 }
 
 section .design .card p {
@@ -388,6 +392,7 @@ section .main-form .box .main-cards-form {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: #dddddd73;
 }
 section .main-form .box .main-cards-form h2 {
     color: white;
