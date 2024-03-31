@@ -294,7 +294,7 @@ section .design .main-card {
 }
 section .design .main-card .card {
     background-color: rgba(0, 0, 0, 0.31);
-    /* height: 250px; */
+    height: 250px;
     /* padding: 10px 0; */
     width: 300px;
 display: flex;
@@ -319,8 +319,8 @@ section .design .card h3 a {
 }
 section .design  .card img {
     /* width: 200px; */
-    height: 200px;
-    width: 100%;
+    height: 150px;
+    width: 300px;
     border-radius: 10px;
 }
 
@@ -454,7 +454,7 @@ section .main-form .box .main-cards-form .all-cards .card a h4 {
 /* Footer Start */
 footer {
     width: 100%;
-    background-color: #000000c1;
+    background-color: #000;
     padding: 5%;
     display: flex;
     justify-content: center;
