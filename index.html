@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Css/style.css">
+    <link rel="stylesheet" href="Css/form-style.css">
 <!--      <link rel="preload" href="Css/style.css" as="stylesheet"> -->
 <!--     <link rel="prefetch" href="Css/style.css" as="stylesheet"> -->
 <!--     <link rel="preload" href="images/.png" as="image">
@@ -178,35 +179,37 @@
         <!-- Design End -->
         <!-- Form section start  -->
         <section class="main-form" id="form">
-            <div class="box">
-                <div class="form">
-                    <form>
-                        <h2>ابعتلنا بياناتك</h2>
-                        <div class="inputbox">
-                            <label>اسمك</label><br>
-                            <input type="text" value="" id="username" placeholder="اكتب اسمك هنا..." required>
-                        </div>
-                        <div class="inputbox">
-                            <label>البريد الالكتروني</label><br>
-                            <input type="email" value="" id="email" placeholder="اكتب ايميلك هنا..." required>
-                        </div>
-                        <div class="inputbox">
-                            <label>رقم الهاتف</label><br>
-                            <input type="text" value="" id="phone" placeholder="اكتب رقم هاتفك هنا..." required>
-                        </div>
-                        <div class="inputbox">
-                            <label>موضوع</label><br>
-                            <input type="text" value="" id="subject" placeholder="اكتب اي شئ..." required>
-                        </div>
-                        <div class="send">
-                            <input type="submit" value="ارسال" class="sub" id="submit">
-                            <input type="reset" value="حذف">
-                        </div>
-                    </form>
+            <h2>ابعتلنا بياناتك</h2>
+            <form>
+                    <div class="box">
+                        <label>اسمك</label>
+                    <input type="text" value="" id="username" placeholder="اكتب اسمك هنا..." required>
+                    </div>
+
+                    <div class="box">
+                        <label>البريد الالكتروني</label>
+                    <input type="email" value="" id="email" placeholder="اكتب ايميلك هنا..." required>
+
+                    </div>
+                   <div class="box">
+                    <label>رقم الهاتف</label>
+                    <input type="text" value="" id="phone" placeholder="اكتب رقم هاتفك هنا..." required>
+                   </div>
+
+                   <div class="box">
+                    <label>موضوع</label>
+                    <input type="text" value="" id="subject" placeholder="اكتب اي شئ..." required>
+
+                   </div>
+                <div class="send">
+                    <input type="submit" value="ارسال" class="sub" id="submit">
+                    <input type="reset" value="حذف">
                 </div>
-                <!-- Cards In Form Start -->
+            </form>
+            <!-- Cards In Form Start -->
+            <div class="box">
                 <div class="main-cards-form">
-                    <h2>تواصل معنا عبر...</h2>
+                    <h2>تواصل معنا عبر</h2>
                     <div class="all-cards">
                         <div class="card">
                             <a href="mailto:mahemoudabuelsaoud@gmail.com"><i class="fas fa-envelope"></i><h4>البريد الالكتروني</h4></a>
@@ -222,8 +225,8 @@
                         </div>
                     </div>
                 </div>
-                <!-- Cards In Form End -->
             </div>
+                <!-- Cards In Form End -->
         </section>
         <!-- Form section end  -->
     </section>
@@ -299,7 +302,7 @@
                     subject: document.getElementById("subject").value,
                 });
             alert("تم ارسال بيانات التواصل معك شكرا لك!");
-        })
+        });
     </script>
     </body>
 </html>
