@@ -329,124 +329,7 @@ section .design .card p {
 }
 /* Design End */
 
-/* Form Start */
-section .main-form {
-    width: 100%;
-    background-color: black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    /* padding: 5%; */
-}
-section .main-form .box {
-    width: 100%;
-    /* background-color: #eee; */
-    /* padding: 5%; */
-}
-section .main-form .form {
-    width: 100%;
-}
-section .main-form .form form {
-    width: 100%;
-    background-color: #00000059;
-    padding: 10%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 30px;
-    border-radius: 10px;
-}
-section .main-form .form form h2 {
-    color: white;
-}
-section .main-form .form form .inputbox {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-}
-section .main-form .form form input {
-    padding: 10px;
-    outline: none;
-    border: none;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-}
-section .main-form .form form label {
-    color: white;
-}
-section .main-form .form form .send {
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-section .main-form .form form .send input {
-    cursor: pointer;
-}
-/* Cards In Form Start */
-section .main-form .box .main-cards-form {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: #dddddd73;
-}
-section .main-form .box .main-cards-form h2 {
-    color: white;
-}
-section .main-form .box .main-cards-form .all-cards {
-    width: 100%;
-    display: flex;
-    /* background-color: #aaa; */
-    justify-content: space-around;
-    padding: 5%;
-    align-items: center;
-    gap: 30px;
 
-}
-section .main-form .box .main-cards-form .all-cards .card {
-    background-color: #00000050;
-    border-radius: 10px;
-    padding: 50px;
-    width: 250px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: scale 1s;
-
-}
-section .main-form .box .main-cards-form .all-cards .card:hover {
-    scale: 1.1;
-}
-
-section .main-form .box .main-cards-form .all-cards .card a i { 
-    color: white;
-    font-size: 25px;
-}
-section .main-form .box .main-cards-form .all-cards .card a  { 
-    text-decoration: none;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-section .main-form .box .main-cards-form .all-cards .card a h4 {
-    color: white;
-} 
-
-/* Media In Cards In Form Start */
-@media (max-width: 951px) {
-    section .main-form .box .main-cards-form .all-cards  {
-        flex-direction: column;
-    
-    }
-}
-/* Media In Cards In Form End */
-/* Cards In Form End */
-/* Form End */
 
 /* Section End */
 
@@ -460,7 +343,12 @@ footer {
     justify-content: center;
     align-items: center;
 }
+
 footer p {
     color: white;
+}
+footer p a {
+    color: white;
+    font-weight: bold;
 }
 /* Footer End */
