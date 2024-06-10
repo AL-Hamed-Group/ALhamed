@@ -30,12 +30,25 @@
         <!-- Header Section Start -->
         <header>
             <a href="../index.html" target="_blank"><img src="../images/logo.png" alt="o" class="logo"></a>
-            <nav class="navigation">
-                <a href="../index.html" target="_blank">الخدمات</a>
-                <a href="../index.html" target="_blank">التصميمات</a>
-                <a href="#" style="opacity: 0.5; border-bottom: 2px solid black;">تواصل معنا</a>
-                <a href="articles.html" target="_blank">المقالات</a>
-            </nav>
+            <ul class="ul-large">
+                <li><a href="../index.html" target="_blank">الخدمات</a></li>
+                <li><a href="../index.html" target="_blank">التصميمات</a></li>
+                <li><a href="#">تواصل معنا</a></li>
+                <li><a href="articles.html" target="_blank">المقالات</a></li>
+            </ul>
+            <div class="main-list">
+                <div class="list" onclick="document.getElementById('lis').style.display = 'block';" ondblclick="document.getElementById('lis').style.display = 'none';">
+                    <div class="option" id="one" onclick="document.getElementById('lis').style.display = 'none';"></div>
+                    <div class="option ch" id="ch"></div>
+                    <div class="option" id="two" onclick="document.getElementById('lis').style.display = 'none';"></div>
+                    <ul class="ul-small" id="lis">
+                        <li><a href="../index.html" target="_blank">الخدمات</a></li>
+                        <li><a href="../index.html" target="_blank">التصميمات</a></li>
+                        <li><a href="#">تواصل معنا</a></li>
+                        <li><a href="articles.html" target="_blank">المقالات</a></li>
+                    </ul>
+                </div>
+            </div>
         </header>
         <!-- Header Section End -->
 
@@ -74,7 +87,7 @@
 
                 // Your web app's Firebase configuration
                 const firebaseConfig = {
-                   apiKey: "AIzaSyCYft0-h7x_zdPhAZf_08TcUEfKJGzNRcY",
+                    apiKey: "AIzaSyCYft0-h7x_zdPhAZf_08TcUEfKJGzNRcY",
     authDomain: "alhamed-2.firebaseapp.com",
     projectId: "alhamed-2",
     storageBucket: "alhamed-2.appspot.com",
@@ -101,6 +114,7 @@
                     alert("تم ارسال بيانات التواصل شكرا لك !");
                 })
             </script>
+
         </section>
         <footer class="footer">
             <p class="footer-title"><span>تم التصميم بواسطه ال حامد</span>&copy; 2020 </p>
