@@ -5,6 +5,22 @@
     /* outline: 2px solid red;  */
 }
 
+/* Buttons Up And Down Start */
+.up-down img {
+    width: 50px;
+
+    }
+    .up {
+    position: fixed;
+    bottom: 0;
+}
+.down {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+/* Buttons Up And Down End */
+
 /* Header Start */
 header {
     width: 100%;
@@ -41,6 +57,7 @@ header .main-list .list {
     padding: 10px;
     gap: 10px;
     border-radius: 5px;
+    cursor: pointer;
 }
 header .main-list .list .option {
     width: 30px;
@@ -55,7 +72,7 @@ header .main-list .list:hover .ch {
     transition: 0.5s;
 }
 header .main-list .list:hover .ul-small {
-    display: block;
+    /* display: block; */
 }
 header .main-list .list .ul-small {
     position: absolute;
